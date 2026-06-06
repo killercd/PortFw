@@ -14,6 +14,7 @@ OUTPUT=${1:-main}
   -lssl \
   -lcrypto \
   -pthread \
+  -s \
   -o "$OUTPUT"
 
 echo "Build complete: $OUTPUT"
